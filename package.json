@@ -1,0 +1,30 @@
+{
+  "name": "kushy-design",
+  "version": "0.0.0",
+  "description": "The design system for Kushy.net",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "design-systems",
+    "react",
+    "frontend",
+    "ui-kit",
+    "ui-design",
+    "css",
+    "react-components",
+    "components"
+  ],
+  "author": "Ryosuke",
+  "license": "MIT",
+  "dependencies": {
+    "semantic-ui": "^2.3.3",
+    "semantic-ui-react": "^0.82.1"
+  }
+}

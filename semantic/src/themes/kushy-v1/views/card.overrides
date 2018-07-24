@@ -1,0 +1,29 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+/*************************
+* Shop Archive
+*************************/
+
+.ui.ShopArchive.card>.image, 
+.ui.cards>.ShopArchive.card>.image
+{
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.ui.ShopArchive.card .meta, 
+.ui.cards>.ShopArchive.card .meta
+{
+    color: @linkColor;
+    font-family: @headerFont;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.ui.card>.content>.header:not(.ui), 
+.ui.cards>.card>.content>.header:not(.ui) {
+    margin-top: 0;
+}
